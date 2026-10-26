@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.log
+models/
+
+# Local AI models and test assets
+/sherpa-onnx-streaming-zipformer-ctc-zh-int8-2025-06-30/
+*.bak
+kokoro_test.wav
